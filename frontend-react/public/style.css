@@ -1,0 +1,18 @@
+@font-face {
+    font-family: vazir;
+    src: url(./vazir.woff2);
+}
+
+body {
+    background-color: #454545;
+    font-family: vazir;
+}
+
+.background {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background: url(./noise.png);
+}
+
